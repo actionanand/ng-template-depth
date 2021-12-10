@@ -56,6 +56,12 @@ ng deploy --base-href=/ng-template-depth/
 
 * `ng-template-depth` is the name of the repo.
 
-## Further help
+## Resources
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. [TemplateRefs are Angular’s Render Props](https://medium.com/angular-in-depth/templaterefs-are-angulars-render-props-a2b97cbcc362)
+
+    - [Gist Page](https://gist.github.com/isaacplmann/977cba11d25a1402b8de228b18ed02cd)
+    - [ngTemplateOutlet: The secret to customisation - In Depth Dev](https://indepth.dev/posts/1405/ngtemplateoutlet)
+    - [How to Use ngTemplateOutlet in Angular](https://www.tektutorialshub.com/angular/ngtemplateoutlet-in-angular/)
+    - [Angular ng-template, ng-container and ngTemplateOutlet - Angular University](https://blog.angular-university.io/angular-ng-template-ng-container-ngtemplateoutlet/)
+
