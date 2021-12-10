@@ -1,11 +1,16 @@
 # NgTemplateDepth
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0. with `pnpm` node package manager
 
 ## What to do after cloning?
 
 ```bash
 pnpm install
+```
+  - If pnpm is not installed,
+
+```bash
+npm install -g pnpm
 ```
 
 ## How to create project using `pnpm`
@@ -22,21 +27,34 @@ ng new my-new-pnpm-project --skip-install
 
 Run `ng serve` or `pnpm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## How to deploy to Github pages, if pnpm is used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Add 'angular-cli-ghpages' under dev dependencies as below
 
-## Build
+```json
+"angular-cli-ghpages": "^1.0.0",
+```
+2. Add the following json property to `angular.json` file under architect
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```json
+  "deploy": {
+    "builder": "angular-cli-ghpages:deploy"
+  }
+```
 
-## Running unit tests
+3. Install all the missing packages
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+pnpm i
+```
 
-## Running end-to-end tests
+4. Deploy the app
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng deploy --base-href=/ng-template-depth/
+```
+
+* `ng-template-depth` is the name of the repo.
 
 ## Further help
 
