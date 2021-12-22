@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MousePageModule } from './pages/mouse-page/mouse-page.module';
 import { MouseModule } from './pages/mouse-page/mouse/mouse.module';
+import { TogglePageModule } from './pages/toggle-page/toggle-page.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     SharedModule,
     MouseModule,
-    MousePageModule
+    MousePageModule,
+    TogglePageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
