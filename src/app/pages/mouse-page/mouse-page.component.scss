@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+.mouse {
+  text-align: center;
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+
+  &-even {
+    background-color: green;
+    color: white;
+  }
+
+  &-odd {
+    background-color: red;
+    color: white;
+  }
+}

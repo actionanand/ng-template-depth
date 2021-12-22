@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MouseModule } from './mouse/mouse.module';
+import { MousePageModule } from './pages/mouse-page/mouse-page.module';
+import { MouseModule } from './pages/mouse-page/mouse/mouse.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    MouseModule
+    MouseModule,
+    MousePageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
