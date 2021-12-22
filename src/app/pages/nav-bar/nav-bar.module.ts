@@ -1,20 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MousePageComponent } from './mouse-page.component';
+import { NavBarComponent } from './nav-bar.component';
 import { SharedModule } from '../../shared/shared.module';
-import { MouseComponent } from './mouse/mouse.component';
 
 
 
 @NgModule({
   declarations: [
-    MousePageComponent,
-    MouseComponent
+    NavBarComponent
   ],
   imports: [
     CommonModule,
     SharedModule
-  ]
+  ],
+  exports: [NavBarComponent]
 })
-export class MousePageModule { }
+export class NavBarModule { }
