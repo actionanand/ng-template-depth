@@ -1,0 +1,11 @@
+<!-- TemplateRefs are Angular’s Render Props -->
+<app-mouse>
+  <ng-template let-x="x" let-y="y">
+    <p class="mouse">
+      My mouse's x is   
+      <span [ngClass]="x % 2 === 0 ? 'mouse-even' : 'mouse-odd'"> {{ x }} </span>
+      and y is
+      <span [ngClass]="y % 2 === 0 ? 'mouse-even' : 'mouse-odd'"> {{ y }} </span>
+    </p>
+  </ng-template>
+</app-mouse>
