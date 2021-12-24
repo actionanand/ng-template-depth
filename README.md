@@ -65,3 +65,5 @@ ng deploy --base-href=/ng-template-depth/
     - [How to Use ngTemplateOutlet in Angular](https://www.tektutorialshub.com/angular/ngtemplateoutlet-in-angular/)
     - [Angular ng-template, ng-container and ngTemplateOutlet - Angular University](https://blog.angular-university.io/angular-ng-template-ng-container-ngtemplateoutlet/)
 
+2. [Build a Toggle Component](https://medium.com/angular-in-depth/build-a-toggle-component-6e8f44889c2c)
+
