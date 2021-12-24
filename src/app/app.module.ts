@@ -5,7 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MousePageModule } from './pages/mouse-page/mouse-page.module';
 import { NavBarModule } from './pages/nav-bar/nav-bar.module';
-import { TogglePageModule } from './pages/toggle-page/toggle-page.module';
+import { ToggleCompoundPageModule } from './pages/toggle-compound-page /toggle-compound-page.module';
+import { TogglePageModule } from './pages/toggle-simple-page/toggle-page.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { SharedModule } from './shared/shared.module';
     SharedModule,
     MousePageModule,
     TogglePageModule,
+    ToggleCompoundPageModule,
     NavBarModule
   ],
   providers: [],
