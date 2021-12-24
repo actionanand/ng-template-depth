@@ -67,4 +67,5 @@ ng deploy --base-href=/ng-template-depth/
 
 2. [Build a Toggle Component - part 1](https://medium.com/angular-in-depth/build-a-toggle-component-6e8f44889c2c)
 3. [Write Compound Components - part 2](https://medium.com/angular-in-depth/write-compound-components-1001449c67f0)
-
+4. [Communicate Between Components Using Dependency Injection - part 3a](https://medium.com/angular-in-depth/communicate-between-components-using-dependency-injection-d7280567faa7)
+  - [CSS buttons](https://copy-paste-css.com/)
