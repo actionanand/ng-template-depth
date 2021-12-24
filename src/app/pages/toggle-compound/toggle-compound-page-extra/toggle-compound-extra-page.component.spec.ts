@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TogglePageComponent } from './toggle-compound-page.component';
+import { ToggleCompoundExtraPageComponent } from './toggle-compound-extra-page.component';
 
 describe('TogglePageComponent', () => {
-  let component: TogglePageComponent;
-  let fixture: ComponentFixture<TogglePageComponent>;
+  let component: ToggleCompoundExtraPageComponent;
+  let fixture: ComponentFixture<ToggleCompoundExtraPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TogglePageComponent ]
+      declarations: [ ToggleCompoundExtraPageComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TogglePageComponent);
+    fixture = TestBed.createComponent(ToggleCompoundExtraPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
